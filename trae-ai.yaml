@@ -1,0 +1,31 @@
+# Warp Theme: Trae AI Theme
+# Author: vcalderon.dev
+# Inspired by the trae.ai editor color scheme
+# https://github.com/vcalderon-dev/warp-trae-theme
+
+name: Trae AI Theme
+accent: "#00AEEF"
+cursor: "#00DAC1"
+background: "#101015"
+foreground: "#E6E8EB"
+details: darker
+
+terminal_colors:
+  normal:
+    black: "#0A0A0F"
+    red: "#FF4D4F"
+    green: "#00E396"
+    yellow: "#F0C96A"
+    blue: "#00AEEF"
+    magenta: "#C586C0"
+    cyan: "#00DAC1"
+    white: "#E6E8EB"
+  bright:
+    black: "#2D2D3A"
+    red: "#FF6B6B"
+    green: "#00FFBF"
+    yellow: "#F5D97B"
+    blue: "#33CCFF"
+    magenta: "#D4A6F1"
+    cyan: "#00F5E1"
+    white: "#FFFFFF"
