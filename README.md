@@ -1,16 +1,12 @@
-#!/bin/bash
+# Trae AI Warp Theme
 
-# Warp Theme Installer
-# Author: vcalderon.dev
-# Installs the "Trae AI Theme" into your Warp config directory
+A custom theme for [Warp](https://warp.dev), inspired by the editor of [trae.ai](https://trae.ai).
 
-set -e
+> 🎨 Author: [vcalderon.dev](https://github.com/vcalderondev)
 
-echo "📁 Creating ~/.warp/themes directory if it does not exist..."
-mkdir -p "$HOME/.warp/themes"
+## Quick Installation
 
-echo "📄 Downloading trae-ai.yaml to ~/.warp/themes/"
-curl -fsSL https://raw.githubusercontent.com/vcalderondev/trae-ai-warp-theme/main/trae-ai.yaml -o "$HOME/.warp/themes/trae-ai.yaml"
+Run this command in your terminal:
 
-echo "✅ 'Trae AI Theme' installed at ~/.warp/themes/trae-ai.yaml"
-echo "✨ Open Warp > Preferences > Appearance > Themes to activate it"
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/vcalderondev/trae-ai-warp-theme/main/install.sh)"
